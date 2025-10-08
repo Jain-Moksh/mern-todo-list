@@ -9,8 +9,6 @@ A minimal Todo app using the MERN stack:
 No external URLs/APIs are used.
 
 ## Folder Structure
-
-\`\`\`
 .
 ├─ src/ # React (Vite) app
 │ ├─ App.tsx
@@ -24,7 +22,8 @@ No external URLs/APIs are used.
 │ ├─ package.json
 │ └─ .env # local only (not committed)
 └─ node_modules/
-\`\`\`
+
+
 
 ## Quick Start
 
