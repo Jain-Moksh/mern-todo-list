@@ -8,21 +8,26 @@ A minimal Todo app using the MERN stack:
 
 No external URLs/APIs are used.
 
-## Folder Structure
-.
-├─ src/ # React (Vite) app
-│ ├─ App.tsx
-│ ├─ main.tsx
-│ ├─ index.css
-│ └─ vite-env.d.ts
-├─ server/ # Node/Express API + MongoDB
-│ ├─ config/
-│ ├─ models/
-│ ├─ server.js
-│ ├─ package.json
-│ └─ .env # local only (not committed)
-└─ node_modules/
+## 📁 Project Structure
 
+```plaintext
+TodoList/
+├── src/                  # React (Vite) frontend
+│   ├── App.tsx
+│   ├── main.tsx
+│   ├── index.css
+│   └── vite-env.d.ts
+│
+├── server/               # Node.js + Express backend
+│   ├── config/           # Database configuration
+│   ├── models/           # Mongoose schemas
+│   ├── server.js         # Server entry point
+│   ├── package.json
+│   └── .env              # Environment variables (not committed)
+│
+├── package.json          # Root dependencies (if used for both client & server)
+├── README.md
+└── node_modules/
 
 
 ## Quick Start
