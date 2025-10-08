@@ -28,7 +28,7 @@ TodoList/
 ├── package.json          # Root dependencies (if used for both client & server)
 ├── README.md
 └── node_modules/
-
+```
 
 ## Quick Start
 
