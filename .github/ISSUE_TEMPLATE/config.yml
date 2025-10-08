@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "📖 Documentation"
+    url: "https://github.com/contrifest/mern-todo-list#readme"
+    about: "Check our documentation before raising an issue."
+  - name: "💬 Discussions"
+    url: "https://github.com/contrifest/mern-todo-list/discussions"
+    about: "Please use GitHub Discussions for questions, ideas, or general talk."
